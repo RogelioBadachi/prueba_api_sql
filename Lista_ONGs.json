@@ -1,0 +1,42 @@
+[
+ {
+  "Organizacion": "Team Seas",
+  "Logo": "https:\/\/assets01.teamassets.net\/assets\/images\/teamseas-tm-logo.png",
+  "Programa": "#TeamSeas",
+  "Descripcion": "Limpieza del Océano. 1 Dólar donado = 1 libra de basura que se limpia",
+  "Donar": "https:\/\/teamseas.org\/",
+  "id": 1
+ },
+ {
+  "Organizacion": "Earth League International",
+  "Logo": "https:\/\/earthleagueinternational.org\/wp-content\/uploads\/2020\/04\/earth-league-international.png",
+  "Programa": "Operación Fake Gold",
+  "Descripcion": "Detener la cadena de suministro ilegal de Totoaba de México a China",
+  "Donar": "https:\/\/earthleagueinternational.org\/donate\/",
+  "id": 2
+ },
+ {
+  "Organizacion": "The Ocean Clean Up",
+  "Logo": "https:\/\/es.wikipedia.org\/wiki\/Fundaci%C3%B3n_The_Ocean_Cleanup#\/media\/Archivo:The_Ocean_Cleanup_logo.svg",
+  "Programa": "The Ocean Clean Up",
+  "Descripcion": "Limpieza del Océano. ",
+  "Donar": "https:\/\/theoceancleanup.com\/donate\/",
+  "id": 3
+ },
+ {
+  "Organizacion": "Oceana",
+  "Logo": "https:\/\/mx.oceana.org\/wp-content\/uploads\/sites\/17\/logo_es-e1631518823246.png",
+  "Programa": "Proyecto Alacranes",
+  "Descripcion": "Protegiendo los hábitats de México",
+  "Donar": "https:\/\/oceana.ca\/en\/donate-oceana-canada\/",
+  "id": 4
+ },
+ {
+  "Organizacion": "Ocean Conservancy",
+  "Logo": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQGnAwqdTi7xZ8TmrekN-0JPxrXqmhgm1RIXQQ874fiI8BtE3Jf",
+  "Programa": "Sustainable Fisheries",
+  "Descripcion": "Soluciones científicas para un océano sano",
+  "Donar": "https:\/\/donate.oceanconservancy.org\/page\/92465\/donate\/1?promo_name=Donate_Button&promo_position=TopRight&promo_creative=Evergreen&_ga=2.66541166.1794487691.1652587714-1062681711.1652587714&ea.tracking.id=22OPEPEAXX",
+  "id": 5
+ }
+]

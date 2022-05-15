@@ -2,12 +2,16 @@
 const express = require('express')
 // App de Express
 const app = express()
+// Export functions from queries.js
+const db = require('./queries')
+
 app.use(express.json()) // Indicamos que usaremos JSON
 // Puerto en que vamos a ver nuestra app: localhost:3000
 const port = 3000
 
 // HTTP METHODS
-app.get('/v1/explorers', (req,res) => {
+/*
+app.get('/', (req,res) => {
     console.log(`Api Explorers GET ALL requests ${new Date()}`);
     const explorer1 = {organizacion: "Team Seas", logo: " https://assets01.teamassets.net/assets/images/teamseas-tm-logo.png" , programa: "#TeamSeas", descripcion: "Limpieza del Océano. 1 Dólar donado = 1 libra de basura que se limpia"}
     const explorer2 = {organizacion: "Earth League International",logo: "https://earthleagueinternational.org/wp-content/uploads/2020/04/earth-league-international.png",programa: "Operacion Fake gold", descripcion: "Detener la cadena de suministro ilegal de Totoaba de México a China"}
@@ -17,6 +21,10 @@ app.get('/v1/explorers', (req,res) => {
     const explorers = [explorer1, explorer2, explorer3, explorer4, explorer5]
     res.status(200).json(explorers)
 })
+*/
+
+app.get('/users', db.getUsers)
+app.get('/users/:id', db.getUserById)
 
 // Con esto inicializamos esta app
 app.listen(port, () => {

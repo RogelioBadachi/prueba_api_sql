@@ -3,7 +3,9 @@ const express = require('express')
 // App de Express
 const app = express()
 // Export functions from queries.js
-const db = require('./queries')
+//const db = require('./queries')
+var pgp = require("pg-promise")(/*options*/);
+var db = pgp("postgresql://postgres:3NhO0ziXVp8895J9pFy8@containers-us-west-43.railway.app:5648/railway");
 
 app.use(express.json()) // Indicamos que usaremos JSON
 // Puerto en que vamos a ver nuestra app: localhost:3000
